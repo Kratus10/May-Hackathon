@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ 
+ body{
+     background-color: rgb(228, 223, 217);
+     /* background-image: url(cloud.jpeg); */
+     /* background-repeat: no-repeat; */
+     /* background-size: cover; */ 
+     
+ 
+ }
+ #mainpage{
+     display: flex;
+     flex-direction: column;
+ 
+ }
+ #verticaldiv{
+     display: flex;
+     /* flex-direction: row; */
+ 
+ }
+ #imgdiv{
+     display: flex;
+ }
+ .adimages{
+     width: 445px;
+     height: 300px;
+     padding-left: 10px;
+ }
+ #leftvertdiv{
+     padding-left: 10px;
+ }
+ #avatar{
+     border-radius: 50%;
+ }
+ .logo{
+     border-radius: 30%;
+ }
+ .adimages{
+     border-radius: 10%;
+ }
+ #myh1{
+     background-color: rgb(162, 190, 181);
+     
+ }
+ #favroom{
+     padding-top: 40px;
+     padding-left: 100px;
+ }
+ .texxt{
+     font-size: 24pt;
+     width: 100%;
+ }
+ #rightvertdiv{
+     background-color: rgb(137, 177, 164);
+     border-radius: 5%;
+     padding-right: 300px;
+     padding-left: 100px;
+ }
+ #search{
+     padding-left: 20px;
+ }
+ #register{
+     padding-right: 300px;
+ }
+ #match{
+     font-size: 16pt;
+     width: 150%;
+     /* padding-left: 200px; */
+     color: rgb(243, 245, 247);
+ }
+ /* #news{
+     padding-left: 50px;
+ } */
+ #news p{
+     font-size: 14pt;
+     width: 150%;
+     padding-bottom: 7px;
+ }
+ #lostconnect input{
+     border-radius: 10%;
+ }
+ .ratedpics{
+     border-radius: 30%;
+ }
+ .ratedphoto{
+     border-radius: 5%;
+ }
+ #contactadd{
+     padding-top: 5rem;
+ }
+ #mission p{
+     font-size: 14pt;
+     width: 70%;
+ }
+ #vision p{
+     font-size: 14pt;
+     width: 70%; 
+ }
+ #lostconnect input{
+ border-radius: 10px;
+ padding: 5px 5px;
+ border-color: blue;
+ /* border: none; */
+ }
+ #lostconnect div{
+     padding-bottom: 10px;
+ }
+ #vision h4{
+     padding-top: 10px;
+     font-size: 16pt;
+ }
+ #mission h4{
+     font-size: 16pt;
+ }
+ #favroom h3{
+     padding-top: 10px;
+ }
+ .searchbtn1{
+     padding: 5px 65px;
+     color: rgb(3, 3, 3);
+     border-color: rgb(15, 15, 190);
+     background-color: rgb(35, 35, 99);
+     font-size: 14pt;
+     border-radius: 10px;
+ }
+ form input{
+     border-radius: 10px;
+ padding: 5px 5px;
+ border-color: blue;
+ }
+ form div{
+     padding-bottom: 10px;
+ }
+ .chkbx div{
+     padding-bottom: 10px;
+ }
+ .chkbx h3{
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ #holla_btn button{
+     padding: 5px 5px;
+     color: rgb(230, 220, 220);
+     border-color:  rgb(151, 151, 170);
+     background-color: rgb(154, 154, 180);
+     font-size: 14pt;
+     border-radius: 10px;
+ }
+ #contactadd div{
+     padding-bottom: 10px;
+ }
+ #rightvertdiv div{
+     padding-bottom: 10px;
+ }
+ #forum h2{
+     width: 150%;
+ }
+ #middlevertdiv1{
+     display: flex;
+     align-content: center;
+     padding-left: 1rem;
+ }
+ #adtwo{
+     display: flex;
+     padding-top: 5rem;
+     padding-left: 10rem;
+ }
+ #formh3{
+ 
+    width: 200%;
+   /* padding-top: 2rem; */
+   padding-bottom: 2rem;
+   /* padding-left: 10rem; */
+ }
+ #logdiv{
+     padding-top: 2rem;
+     padding-left: 5rem;
+ }
+ .logbutton{
+     padding: 5px 65px;
+     color: rgb(3, 3, 3);
+     border-color: rgb(15, 15, 190);
+     background-color: rgb(30, 168, 72);
+     font-size: 14pt;
+     border-radius: 10px;
+ }
+ #logdiv p{
+     padding-bottom: 10px;
+ }
