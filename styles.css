@@ -1,8 +1,1852 @@
+            /* Global Styles */
+               /* Global Styles */
+ @media (max-width: 1220px){  
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #imgdiv{
+        width: 100%;
+    }
+
+    nav {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    nav .logo img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* Form Styles */
+    .form-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .form-container h2 {
+        margin-bottom: 20px;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="password"],
+    .form-container input[type="email"],
+    .form-container button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .form-container button {
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .form-container button:hover {
+        background-color: #555;
+    }
+
+    /* Advert Zone */
+    /* .advert-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px 0;
+    } */
+
+    .advert {
+        width: 30%;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Logged-in Section */
+    .logged-in-section {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .user-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .user-info .logo img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .user-info .logo h1 {
+        margin: 0;
+    }
+
+    .logout-btn,
+    .search-btn {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .logout-btn:hover,
+    .search-btn:hover {
+        background-color: #555;
+    }
+
+    /* Section Two */
+    .section-two {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .section-two div {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    /* Hoteliers Form */
+    .hoteliers-form {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hoteliers-form h2 {
+        margin-bottom: 20px;
+    }
+    body{
+        background-color: rgb(228, 223, 217);
+    }
+    #mainpage{
+        display: flex;
+        flex-direction: column;
+    }
+    #verticaldiv{
+        display: flex;
+        /* flex-direction: row; */
+    
+    }
+    /* #imgdiv{
+        display: flex;
+        
+    } */
+    #imgdiv img{
+        width: 100%;
+    }
+    /* .adimages{
+        width: 445px;
+        height: 300px;
+        padding-left: 10px;
+    } */
+    /* @media only screen and(max-width: 600px) {
+        .adimagez{
+            width: 10px;
+            height: 10px;
+            padding-left: 10px;
+        }
+        #heropage{
+            width: 100%;
+        } */
+        
+    
+    #leftvertdiv{
+        padding-left: 10px;
+    }
+    #avatar{
+        border-radius: 50%;
+    }
+    .logo{
+        border-radius: 30%;
+    }
+    .adimages{
+        border-radius: 10%;
+    }
+    #myh1{
+        background-color: rgb(162, 190, 181);
+        
+    }
+    #favroom{
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+    .texxt{
+        font-size: 24pt;
+        width: 100%;
+    }
+    #rightvertdiv{
+        background-color: rgb(137, 177, 164);
+        border-radius: 3%;
+        padding-right: 10px;
+        padding-left: 70px;
+        padding-top: 10px;
+    }
+    #search{
+        padding-left: 1px;
+    }
+    #register{
+        padding-right: 100px;
+    }
+    #match{
+        font-size: 16pt;
+        width: 100%;
+        /* padding-left: 200px; */
+        color: rgb(243, 245, 247);
+    }
+    #vipads{
+        display: flex;
+        flex-direction: column;
+    }
+    /* #news{
+        padding-left: 50px;
+    } */
+    #news{
+        /* font-size: 14pt; */
+        width: 30em;
+    }
+    #lostconnect input{
+        border-radius: 10%;
+    }
+    .ratedpics{
+        border-radius: 30%;
+    }
+    .ratedphoto{
+        border-radius: 5%;
+    }
+    #contactadd{
+        padding-top: 5rem;
+    }
+    #mission p{
+        font-size: 14pt;
+        width: 70%;
+        border: 1px solid #d6cfcf;
+        box-shadow: 5px 5px #696363;
+        background-image: url(coatofarms.jpeg);
+        border-radius: 8px;
+    }
+    #vision p{
+        font-size: 14pt;
+        width: 70%; 
+        border: 1px solid #d6cfcf;
+        box-shadow: 5px 5px #696363;
+        background-image: url(coatofarms.jpeg);
+        border-radius: 8px;
+    }
+    #missvis{
+        padding-left: 2em;
+        width: 50em;
+        
+    }
+    #about{
+        display: flex;
+    }
+    #contactadd{
+        padding-left: 2em;
+    }
+    #tele{
+        padding-top: 1em;
+    }
+    #Social_Media{
+        padding-top: 2em;
+    }
+    #lostconnect input{
+    border-radius: 10px;
+    padding: 5px 5px;
+    border-color: blue;
+    /* border: none; */
+    }
+    #lostconnect div{
+        padding-bottom: 10px;
+    }
+    #vision h4{
+        padding-top: 10px;
+        font-size: 16pt;
+    }
+    #mission h4{
+        font-size: 16pt;
+    }
+    #favroom h3{
+        padding-top: 10px;
+    }
+    .searchbtn1{
+        padding: 5px 65px;
+        color: rgb(3, 3, 3);
+        border-color: rgb(15, 15, 190);
+        background-color: rgb(35, 35, 99);
+        font-size: 14pt;
+        border-radius: 10px;
+    }
+    form input{
+        border-radius: 10px;
+    padding: 5px 5px;
+    border-color: blue;
+    }
+    form div{
+        padding-bottom: 10px;
+    }
+    .chkbx div{
+        padding-bottom: 10px;
+    }
+    .chkbx h3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #holla_btn button{
+        padding: 5px 5px;
+        color: rgb(230, 220, 220);
+        border-color:  rgb(151, 151, 170);
+        background-color: rgb(154, 154, 180);
+        font-size: 14pt;
+        border-radius: 10px;
+    }
+    #contactadd div{
+        padding-bottom: 10px;
+    }
+    #rightvertdiv div{
+        padding-bottom: 10px;
+    }
+    #forum h2{
+        width: 150%;
+    }
+    #adtwo{
+        display: flex;
+        justify-content: center;
+        /* padding-top: 1rem; */
+        /* padding-left: 1rem; */
+    }
+    .pad{
+        padding: 2rem 2rem;
+    }
+    #profile{
+        padding-left:  10rem;
+        padding-right: 3rem;
+    }
+}     
+            @media (max-width: 650px){  
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                #imgdiv{
+                    width: 100%;
+                }
+    
+                nav {
+                    background-color: #333;
+                    color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px 20px;
+                }
+    
+                nav .logo img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+    
+                nav ul {
+                    list-style-type: none;
+                    display: flex;
+                }
+    
+                nav ul li {
+                    margin-left: 20px;
+                }
+    
+                nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+    
+                /* Form Styles */
+                .form-container {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+    
+                .form-container h2 {
+                    margin-bottom: 20px;
+                }
+    
+                .form-container input[type="text"],
+                .form-container input[type="password"],
+                .form-container input[type="email"],
+                .form-container button {
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                .form-container button {
+                    background-color: #333;
+                    color: #fff;
+                    cursor: pointer;
+                }
+    
+                .form-container button:hover {
+                    background-color: #555;
+                }
+    
+                /* Advert Zone */
+                /* .advert-section {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    margin: 20px 0;
+                } */
+    
+                .advert {
+                    width: 30%;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                /* Logged-in Section */
+                .logged-in-section {
+                    flex-direction: column;
+                    margin: 20px 0;
+                }
+    
+                .user-info {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+    
+                .user-info .logo img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+    
+                .user-info .logo h1 {
+                    margin: 0;
+                }
+    
+                .logout-btn,
+                .search-btn {
+                    background-color: #333;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+    
+                .logout-btn:hover,
+                .search-btn:hover {
+                    background-color: #555;
+                }
+    
+                /* Section Two */
+                .section-two {
+                    flex-direction: column;
+                    margin-top: 20px;
+                }
+    
+                .section-two div {
+                    width: 100%;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                /* Footer */
+                footer {
+                    background-color: #333;
+                    color: #fff;
+                    text-align: center;
+                    padding: 20px;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                }
+    
+                /* Hoteliers Form */
+                .hoteliers-form {
+                    width: 80%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+    
+                .hoteliers-form h2 {
+                    margin-bottom: 20px;
+                }
+                body{
+                    background-color: rgb(228, 223, 217);
+                }
+                #mainpage{
+                    display: flex;
+                    flex-direction: column;
+                }
+                #verticaldiv{
+                    display: flex;
+                    /* flex-direction: row; */
+                
+                }
+                /* #imgdiv{
+                    display: flex;
+                    
+                } */
+                #imgdiv img{
+                    width: 100%;
+                }
+                /* .adimages{
+                    width: 445px;
+                    height: 300px;
+                    padding-left: 10px;
+                } */
+                /* @media only screen and(max-width: 600px) {
+                    .adimagez{
+                        width: 10px;
+                        height: 10px;
+                        padding-left: 10px;
+                    }
+                    #heropage{
+                        width: 100%;
+                    } */
+                    
+                
+                #leftvertdiv{
+                    padding-left: 10px;
+                }
+                #avatar{
+                    border-radius: 50%;
+                }
+                .logo{
+                    border-radius: 30%;
+                }
+                .adimages{
+                    border-radius: 10%;
+                }
+                #myh1{
+                    background-color: rgb(162, 190, 181);
+                    
+                }
+                #favroom{
+                    padding-top: 40px;
+                    padding-left: 100px;
+                }
+                .texxt{
+                    font-size: 24pt;
+                    width: 100%;
+                }
+                #rightvertdiv{
+                    background-color: rgb(137, 177, 164);
+                    border-radius: 3%;
+                    padding-right: 10px;
+                    padding-left: 70px;
+                    padding-top: 10px;
+                }
+                #search{
+                    padding-left: 1px;
+                }
+                #register{
+                    padding-right: 100px;
+                }
+                #match{
+                    font-size: 16pt;
+                    width: 100%;
+                    /* padding-left: 200px; */
+                    color: rgb(243, 245, 247);
+                }
+                #vipads{
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* #news{
+                    padding-left: 50px;
+                } */
+                #news{
+                    /* font-size: 14pt; */
+                    width: 30em;
+                }
+                #lostconnect input{
+                    border-radius: 10%;
+                }
+                .ratedpics{
+                    border-radius: 30%;
+                }
+                .ratedphoto{
+                    border-radius: 5%;
+                }
+                #contactadd{
+                    padding-top: 5rem;
+                }
+                #mission p{
+                    font-size: 14pt;
+                    width: 70%;
+                    border: 1px solid #d6cfcf;
+                    box-shadow: 5px 5px #696363;
+                    background-image: url(coatofarms.jpeg);
+                    border-radius: 8px;
+                }
+                #vision p{
+                    font-size: 14pt;
+                    width: 70%; 
+                    border: 1px solid #d6cfcf;
+                    box-shadow: 5px 5px #696363;
+                    background-image: url(coatofarms.jpeg);
+                    border-radius: 8px;
+                }
+                #missvis{
+                    padding-left: 2em;
+                    width: 50em;
+                    
+                }
+                #about{
+                    display: flex;
+                }
+                #contactadd{
+                    padding-left: 2em;
+                }
+                #tele{
+                    padding-top: 1em;
+                }
+                #Social_Media{
+                    padding-top: 2em;
+                }
+                #lostconnect input{
+                border-radius: 10px;
+                padding: 5px 5px;
+                border-color: blue;
+                /* border: none; */
+                }
+                #lostconnect div{
+                    padding-bottom: 10px;
+                }
+                #vision h4{
+                    padding-top: 10px;
+                    font-size: 16pt;
+                }
+                #mission h4{
+                    font-size: 16pt;
+                }
+                #favroom h3{
+                    padding-top: 10px;
+                }
+                .searchbtn1{
+                    padding: 5px 65px;
+                    color: rgb(3, 3, 3);
+                    border-color: rgb(15, 15, 190);
+                    background-color: rgb(35, 35, 99);
+                    font-size: 14pt;
+                    border-radius: 10px;
+                }
+                form input{
+                    border-radius: 10px;
+                padding: 5px 5px;
+                border-color: blue;
+                }
+                form div{
+                    padding-bottom: 10px;
+                }
+                .chkbx div{
+                    padding-bottom: 10px;
+                }
+                .chkbx h3{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                #holla_btn button{
+                    padding: 5px 5px;
+                    color: rgb(230, 220, 220);
+                    border-color:  rgb(151, 151, 170);
+                    background-color: rgb(154, 154, 180);
+                    font-size: 14pt;
+                    border-radius: 10px;
+                }
+                #contactadd div{
+                    padding-bottom: 10px;
+                }
+                #rightvertdiv div{
+                    padding-bottom: 10px;
+                }
+                #forum h2{
+                    width: 150%;
+                }
+                #adtwo{
+                    display: flex;
+                    justify-content: center;
+                    /* padding-top: 1rem; */
+                    /* padding-left: 1rem; */
+                }
+                .pad{
+                    padding: 2rem 2rem;
+                }
+                #profile{
+                    padding-left:  10rem;
+                    padding-right: 3rem;
+                }
+    }
+            @media (max-width: 850px){  
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                #imgdiv{
+                    width: 100%;
+                }
+    
+                nav {
+                    background-color: #333;
+                    color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px 20px;
+                }
+    
+                nav .logo img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+    
+                nav ul {
+                    list-style-type: none;
+                    display: flex;
+                }
+    
+                nav ul li {
+                    margin-left: 20px;
+                }
+    
+                nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+    
+                /* Form Styles */
+                .form-container {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+    
+                .form-container h2 {
+                    margin-bottom: 20px;
+                }
+    
+                .form-container input[type="text"],
+                .form-container input[type="password"],
+                .form-container input[type="email"],
+                .form-container button {
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                .form-container button {
+                    background-color: #333;
+                    color: #fff;
+                    cursor: pointer;
+                }
+    
+                .form-container button:hover {
+                    background-color: #555;
+                }
+    
+                /* Advert Zone */
+                /* .advert-section {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    margin: 20px 0;
+                } */
+    
+                .advert {
+                    width: 30%;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                /* Logged-in Section */
+                .logged-in-section {
+                    flex-direction: column;
+                    margin: 20px 0;
+                }
+    
+                .user-info {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+    
+                .user-info .logo img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+    
+                .user-info .logo h1 {
+                    margin: 0;
+                }
+    
+                .logout-btn,
+                .search-btn {
+                    background-color: #333;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+    
+                .logout-btn:hover,
+                .search-btn:hover {
+                    background-color: #555;
+                }
+    
+                /* Section Two */
+                .section-two {
+                    flex-direction: column;
+                    margin-top: 20px;
+                }
+    
+                .section-two div {
+                    width: 100%;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                /* Footer */
+                footer {
+                    background-color: #333;
+                    color: #fff;
+                    text-align: center;
+                    padding: 20px;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                }
+    
+                /* Hoteliers Form */
+                .hoteliers-form {
+                    width: 80%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+    
+                .hoteliers-form h2 {
+                    margin-bottom: 20px;
+                }
+                body{
+                    background-color: rgb(228, 223, 217);
+                }
+                #mainpage{
+                    display: flex;
+                    flex-direction: column;
+                }
+                #verticaldiv{
+                    display: flex;
+                    /* flex-direction: row; */
+                
+                }
+                /* #imgdiv{
+                    display: flex;
+                    
+                } */
+                #imgdiv img{
+                    width: 100%;
+                }
+                /* .adimages{
+                    width: 445px;
+                    height: 300px;
+                    padding-left: 10px;
+                } */
+                /* @media only screen and(max-width: 600px) {
+                    .adimagez{
+                        width: 10px;
+                        height: 10px;
+                        padding-left: 10px;
+                    }
+                    #heropage{
+                        width: 100%;
+                    } */
+                    
+                
+                #leftvertdiv{
+                    padding-left: 10px;
+                }
+                #avatar{
+                    border-radius: 50%;
+                }
+                .logo{
+                    border-radius: 30%;
+                }
+                .adimages{
+                    border-radius: 10%;
+                }
+                #myh1{
+                    background-color: rgb(162, 190, 181);
+                    
+                }
+                #favroom{
+                    padding-top: 40px;
+                    padding-left: 100px;
+                }
+                .texxt{
+                    font-size: 24pt;
+                    width: 100%;
+                }
+                #rightvertdiv{
+                    background-color: rgb(137, 177, 164);
+                    border-radius: 3%;
+                    padding-right: 10px;
+                    padding-left: 70px;
+                    padding-top: 10px;
+                }
+                #search{
+                    padding-left: 1px;
+                }
+                #register{
+                    padding-right: 100px;
+                }
+                #match{
+                    font-size: 16pt;
+                    width: 100%;
+                    /* padding-left: 200px; */
+                    color: rgb(243, 245, 247);
+                }
+                #vipads{
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* #news{
+                    padding-left: 50px;
+                } */
+                #news{
+                    /* font-size: 14pt; */
+                    width: 30em;
+                }
+                #lostconnect input{
+                    border-radius: 10%;
+                }
+                .ratedpics{
+                    border-radius: 30%;
+                }
+                .ratedphoto{
+                    border-radius: 5%;
+                }
+                #contactadd{
+                    padding-top: 5rem;
+                }
+                #mission p{
+                    font-size: 14pt;
+                    width: 70%;
+                    border: 1px solid #d6cfcf;
+                    box-shadow: 5px 5px #696363;
+                    background-image: url(coatofarms.jpeg);
+                    border-radius: 8px;
+                }
+                #vision p{
+                    font-size: 14pt;
+                    width: 70%; 
+                    border: 1px solid #d6cfcf;
+                    box-shadow: 5px 5px #696363;
+                    background-image: url(coatofarms.jpeg);
+                    border-radius: 8px;
+                }
+                #missvis{
+                    padding-left: 2em;
+                    width: 50em;
+                    
+                }
+                #about{
+                    display: flex;
+                }
+                #contactadd{
+                    padding-left: 2em;
+                }
+                #tele{
+                    padding-top: 1em;
+                }
+                #Social_Media{
+                    padding-top: 2em;
+                }
+                #lostconnect input{
+                border-radius: 10px;
+                padding: 5px 5px;
+                border-color: blue;
+                /* border: none; */
+                }
+                #lostconnect div{
+                    padding-bottom: 10px;
+                }
+                #vision h4{
+                    padding-top: 10px;
+                    font-size: 16pt;
+                }
+                #mission h4{
+                    font-size: 16pt;
+                }
+                #favroom h3{
+                    padding-top: 10px;
+                }
+                .searchbtn1{
+                    padding: 5px 65px;
+                    color: rgb(3, 3, 3);
+                    border-color: rgb(15, 15, 190);
+                    background-color: rgb(35, 35, 99);
+                    font-size: 14pt;
+                    border-radius: 10px;
+                }
+                form input{
+                    border-radius: 10px;
+                padding: 5px 5px;
+                border-color: blue;
+                }
+                form div{
+                    padding-bottom: 10px;
+                }
+                .chkbx div{
+                    padding-bottom: 10px;
+                }
+                .chkbx h3{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                #holla_btn button{
+                    padding: 5px 5px;
+                    color: rgb(230, 220, 220);
+                    border-color:  rgb(151, 151, 170);
+                    background-color: rgb(154, 154, 180);
+                    font-size: 14pt;
+                    border-radius: 10px;
+                }
+                #contactadd div{
+                    padding-bottom: 10px;
+                }
+                #rightvertdiv div{
+                    padding-bottom: 10px;
+                }
+                #forum h2{
+                    width: 150%;
+                }
+                #adtwo{
+                    display: flex;
+                    justify-content: center;
+                    /* padding-top: 1rem; */
+                    /* padding-left: 1rem; */
+                }
+                .pad{
+                    padding: 2rem 2rem;
+                }
+                #profile{
+                    padding-left:  10rem;
+                    padding-right: 3rem;
+                }
+    }
+             @media (max-width: 350px){  
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                #imgdiv{
+                    width: 100%;
+                }
+    
+                nav {
+                    background-color: #333;
+                    color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px 20px;
+                }
+    
+                nav .logo img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+    
+                nav ul {
+                    list-style-type: none;
+                    display: flex;
+                }
+    
+                nav ul li {
+                    margin-left: 20px;
+                }
+    
+                nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+    
+                /* Form Styles */
+                .form-container {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+    
+                .form-container h2 {
+                    margin-bottom: 20px;
+                }
+    
+                .form-container input[type="text"],
+                .form-container input[type="password"],
+                .form-container input[type="email"],
+                .form-container button {
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                .form-container button {
+                    background-color: #333;
+                    color: #fff;
+                    cursor: pointer;
+                }
+    
+                .form-container button:hover {
+                    background-color: #555;
+                }
+    
+                /* Advert Zone */
+                /* .advert-section {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    margin: 20px 0;
+                } */
+    
+                .advert {
+                    width: 30%;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                /* Logged-in Section */
+                .logged-in-section {
+                    flex-direction: column;
+                    margin: 20px 0;
+                }
+    
+                .user-info {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+    
+                .user-info .logo img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+    
+                .user-info .logo h1 {
+                    margin: 0;
+                }
+    
+                .logout-btn,
+                .search-btn {
+                    background-color: #333;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+    
+                .logout-btn:hover,
+                .search-btn:hover {
+                    background-color: #555;
+                }
+    
+                /* Section Two */
+                .section-two {
+                    flex-direction: column;
+                    margin-top: 20px;
+                }
+    
+                .section-two div {
+                    width: 100%;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+    
+                /* Footer */
+                footer {
+                    background-color: #333;
+                    color: #fff;
+                    text-align: center;
+                    padding: 20px;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                }
+    
+                /* Hoteliers Form */
+                .hoteliers-form {
+                    width: 80%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+    
+                .hoteliers-form h2 {
+                    margin-bottom: 20px;
+                }
+                body{
+                    background-color: rgb(228, 223, 217);
+                }
+                #mainpage{
+                    display: flex;
+                    flex-direction: column;
+                }
+                #verticaldiv{
+                    display: flex;
+                    /* flex-direction: row; */
+                
+                }
+                /* #imgdiv{
+                    display: flex;
+                    
+                } */
+                #imgdiv img{
+                    width: 100%;
+                }
+                /* .adimages{
+                    width: 445px;
+                    height: 300px;
+                    padding-left: 10px;
+                } */
+                /* @media only screen and(max-width: 600px) {
+                    .adimagez{
+                        width: 10px;
+                        height: 10px;
+                        padding-left: 10px;
+                    }
+                    #heropage{
+                        width: 100%;
+                    } */
+                    
+                
+                #leftvertdiv{
+                    padding-left: 10px;
+                }
+                #avatar{
+                    border-radius: 50%;
+                }
+                .logo{
+                    border-radius: 30%;
+                }
+                .adimages{
+                    border-radius: 10%;
+                }
+                #myh1{
+                    background-color: rgb(162, 190, 181);
+                    
+                }
+                #favroom{
+                    padding-top: 40px;
+                    padding-left: 100px;
+                }
+                .texxt{
+                    font-size: 24pt;
+                    width: 100%;
+                }
+                #rightvertdiv{
+                    background-color: rgb(137, 177, 164);
+                    border-radius: 3%;
+                    padding-right: 10px;
+                    padding-left: 70px;
+                    padding-top: 10px;
+                }
+                #search{
+                    padding-left: 1px;
+                }
+                #register{
+                    padding-right: 100px;
+                }
+                #match{
+                    font-size: 16pt;
+                    width: 100%;
+                    /* padding-left: 200px; */
+                    color: rgb(243, 245, 247);
+                }
+                #vipads{
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* #news{
+                    padding-left: 50px;
+                } */
+                #news{
+                    /* font-size: 14pt; */
+                    width: 30em;
+                }
+                #lostconnect input{
+                    border-radius: 10%;
+                }
+                .ratedpics{
+                    border-radius: 30%;
+                }
+                .ratedphoto{
+                    border-radius: 5%;
+                }
+                #contactadd{
+                    padding-top: 5rem;
+                }
+                #mission p{
+                    font-size: 14pt;
+                    width: 70%;
+                    border: 1px solid #d6cfcf;
+                    box-shadow: 5px 5px #696363;
+                    background-image: url(coatofarms.jpeg);
+                    border-radius: 8px;
+                }
+                #vision p{
+                    font-size: 14pt;
+                    width: 70%; 
+                    border: 1px solid #d6cfcf;
+                    box-shadow: 5px 5px #696363;
+                    background-image: url(coatofarms.jpeg);
+                    border-radius: 8px;
+                }
+                #missvis{
+                    padding-left: 2em;
+                    width: 50em;
+                    
+                }
+                #about{
+                    display: flex;
+                }
+                #contactadd{
+                    padding-left: 2em;
+                }
+                #tele{
+                    padding-top: 1em;
+                }
+                #Social_Media{
+                    padding-top: 2em;
+                }
+                #lostconnect input{
+                border-radius: 10px;
+                padding: 5px 5px;
+                border-color: blue;
+                /* border: none; */
+                }
+                #lostconnect div{
+                    padding-bottom: 10px;
+                }
+                #vision h4{
+                    padding-top: 10px;
+                    font-size: 16pt;
+                }
+                #mission h4{
+                    font-size: 16pt;
+                }
+                #favroom h3{
+                    padding-top: 10px;
+                }
+                .searchbtn1{
+                    padding: 5px 65px;
+                    color: rgb(3, 3, 3);
+                    border-color: rgb(15, 15, 190);
+                    background-color: rgb(35, 35, 99);
+                    font-size: 14pt;
+                    border-radius: 10px;
+                }
+                form input{
+                    border-radius: 10px;
+                padding: 5px 5px;
+                border-color: blue;
+                }
+                form div{
+                    padding-bottom: 10px;
+                }
+                .chkbx div{
+                    padding-bottom: 10px;
+                }
+                .chkbx h3{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                #holla_btn button{
+                    padding: 5px 5px;
+                    color: rgb(230, 220, 220);
+                    border-color:  rgb(151, 151, 170);
+                    background-color: rgb(154, 154, 180);
+                    font-size: 14pt;
+                    border-radius: 10px;
+                }
+                #contactadd div{
+                    padding-bottom: 10px;
+                }
+                #rightvertdiv div{
+                    padding-bottom: 10px;
+                }
+                #forum h2{
+                    width: 150%;
+                }
+                #adtwo{
+                    display: flex;
+                    justify-content: center;
+                    /* padding-top: 1rem; */
+                    /* padding-left: 1rem; */
+                }
+                .pad{
+                    padding: 2rem 2rem;
+                }
+                #profile{
+                    padding-left:  10rem;
+                    padding-right: 3rem;
+                }
+    }
+            @media (max-width: 450px){  
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            #imgdiv{
+                width: 100%;
+            }
+
+            nav {
+                background-color: #333;
+                color: #fff;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 20px;
+            }
+
+            nav .logo img {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                display: flex;
+            }
+
+            nav ul li {
+                margin-left: 20px;
+            }
+
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            /* Form Styles */
+            .form-container {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .form-container h2 {
+                margin-bottom: 20px;
+            }
+
+            .form-container input[type="text"],
+            .form-container input[type="password"],
+            .form-container input[type="email"],
+            .form-container button {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .form-container button {
+                background-color: #333;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            .form-container button:hover {
+                background-color: #555;
+            }
+
+            /* Advert Zone */
+            /* .advert-section {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin: 20px 0;
+            } */
+
+            .advert {
+                width: 30%;
+                padding: 20px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            /* Logged-in Section */
+            .logged-in-section {
+                flex-direction: column;
+                margin: 20px 0;
+            }
+
+            .user-info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .user-info .logo img {
+                width: 40px;
+                height: 40px;
+                margin-right: 10px;
+            }
+
+            .user-info .logo h1 {
+                margin: 0;
+            }
+
+            .logout-btn,
+            .search-btn {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+            .logout-btn:hover,
+            .search-btn:hover {
+                background-color: #555;
+            }
+
+            /* Section Two */
+            .section-two {
+                flex-direction: column;
+                margin-top: 20px;
+            }
+
+            .section-two div {
+                width: 100%;
+                padding: 20px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            /* Footer */
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+
+            /* Hoteliers Form */
+            .hoteliers-form {
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .hoteliers-form h2 {
+                margin-bottom: 20px;
+            }
+            body{
+                background-color: rgb(228, 223, 217);
+            }
+            #mainpage{
+                display: flex;
+                flex-direction: column;
+            }
+            #verticaldiv{
+                display: flex;
+                /* flex-direction: row; */
+            
+            }
+            /* #imgdiv{
+                display: flex;
+                
+            } */
+            #imgdiv img{
+                width: 100%;
+            }
+            /* .adimages{
+                width: 445px;
+                height: 300px;
+                padding-left: 10px;
+            } */
+            /* @media only screen and(max-width: 600px) {
+                .adimagez{
+                    width: 10px;
+                    height: 10px;
+                    padding-left: 10px;
+                }
+                #heropage{
+                    width: 100%;
+                } */
+                
+            
+            #leftvertdiv{
+                padding-left: 10px;
+            }
+            #avatar{
+                border-radius: 50%;
+            }
+            .logo{
+                border-radius: 30%;
+            }
+            .adimages{
+                border-radius: 10%;
+            }
+            #myh1{
+                background-color: rgb(162, 190, 181);
+                
+            }
+            #favroom{
+                padding-top: 40px;
+                padding-left: 100px;
+            }
+            .texxt{
+                font-size: 24pt;
+                width: 100%;
+            }
+            #rightvertdiv{
+                background-color: rgb(137, 177, 164);
+                border-radius: 3%;
+                padding-right: 10px;
+                padding-left: 70px;
+                padding-top: 10px;
+            }
+            #search{
+                padding-left: 1px;
+            }
+            #register{
+                padding-right: 100px;
+            }
+            #match{
+                font-size: 16pt;
+                width: 100%;
+                /* padding-left: 200px; */
+                color: rgb(243, 245, 247);
+            }
+            #vipads{
+                display: flex;
+                flex-direction: column;
+            }
+            /* #news{
+                padding-left: 50px;
+            } */
+            #news{
+                /* font-size: 14pt; */
+                width: 30em;
+            }
+            #lostconnect input{
+                border-radius: 10%;
+            }
+            .ratedpics{
+                border-radius: 30%;
+            }
+            .ratedphoto{
+                border-radius: 5%;
+            }
+            #contactadd{
+                padding-top: 5rem;
+            }
+            #mission p{
+                font-size: 14pt;
+                width: 70%;
+                border: 1px solid #d6cfcf;
+                box-shadow: 5px 5px #696363;
+                background-image: url(coatofarms.jpeg);
+                border-radius: 8px;
+            }
+            #vision p{
+                font-size: 14pt;
+                width: 70%; 
+                border: 1px solid #d6cfcf;
+                box-shadow: 5px 5px #696363;
+                background-image: url(coatofarms.jpeg);
+                border-radius: 8px;
+            }
+            #missvis{
+                padding-left: 2em;
+                width: 50em;
+                
+            }
+            #about{
+                display: flex;
+            }
+            #contactadd{
+                padding-left: 2em;
+            }
+            #tele{
+                padding-top: 1em;
+            }
+            #Social_Media{
+                padding-top: 2em;
+            }
+            #lostconnect input{
+            border-radius: 10px;
+            padding: 5px 5px;
+            border-color: blue;
+            /* border: none; */
+            }
+            #lostconnect div{
+                padding-bottom: 10px;
+            }
+            #vision h4{
+                padding-top: 10px;
+                font-size: 16pt;
+            }
+            #mission h4{
+                font-size: 16pt;
+            }
+            #favroom h3{
+                padding-top: 10px;
+            }
+            .searchbtn1{
+                padding: 5px 65px;
+                color: rgb(3, 3, 3);
+                border-color: rgb(15, 15, 190);
+                background-color: rgb(35, 35, 99);
+                font-size: 14pt;
+                border-radius: 10px;
+            }
+            form input{
+                border-radius: 10px;
+            padding: 5px 5px;
+            border-color: blue;
+            }
+            form div{
+                padding-bottom: 10px;
+            }
+            .chkbx div{
+                padding-bottom: 10px;
+            }
+            .chkbx h3{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            #holla_btn button{
+                padding: 5px 5px;
+                color: rgb(230, 220, 220);
+                border-color:  rgb(151, 151, 170);
+                background-color: rgb(154, 154, 180);
+                font-size: 14pt;
+                border-radius: 10px;
+            }
+            #contactadd div{
+                padding-bottom: 10px;
+            }
+            #rightvertdiv div{
+                padding-bottom: 10px;
+            }
+            #forum h2{
+                width: 150%;
+            }
+            #adtwo{
+                display: flex;
+                justify-content: center;
+                /* padding-top: 1rem; */
+                /* padding-left: 1rem; */
+            }
+            .pad{
+                padding: 2rem 2rem;
+            }
+            #profile{
+                padding-left:  10rem;
+                padding-right: 3rem;
+            }
+}
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -174,7 +2018,7 @@ footer {
      height: 300px;
      padding-left: 10px;
  }
- @media only screen and(max-width: 600px) {
+ /* @media only screen and(max-width: 600px) {
      .adimagez{
          width: 10px;
          height: 10px;
@@ -182,9 +2026,8 @@ footer {
      }
      #heropage{
          width: 100%;
-     }
+     } */
      
- }
  #leftvertdiv{
      padding-left: 10px;
  }
@@ -356,35 +2199,5 @@ footer {
      padding-left:  10rem;
      padding-right: 3rem;
  }
- /* #middlevertdiv1{
-     display: flex;
-     align-content: center;
-     padding-left: 1rem;
- }
- #adtwo{
-     display: flex;
-     padding-top: 5rem;
-     padding-left: 10rem;
- }
- #formh3{
- 
-    width: 200%;
-   /* padding-top: 2rem; */
-   /* padding-bottom: 2rem; */
-   /* padding-left: 10rem; */
- /* }
- #logdiv{
-     padding-top: 2rem;
-     padding-left: 5rem;
- }
- .logbutton{
-     padding: 5px 65px;
-     color: rgb(3, 3, 3);
-     border-color: rgb(15, 15, 190);
-     background-color: rgb(30, 168, 72);
-     font-size: 14pt;
-     border-radius: 10px;
- }
- #logdiv p{
-     padding-bottom: 10px; */ 
- /* } */
+
+    
